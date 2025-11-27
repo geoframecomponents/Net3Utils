@@ -4,6 +4,12 @@
 
 This project contains the classes used to connect the nodes of a graph within Net3.
 
+## Recent Changes
+
+- Added `SumLog` and `SumSqrt` operators for alternative scaling of summed inputs.
+- Added `Sum30` for aggregating many inflows in large basins and reservoirs.
+- Added `inNonNode` to allow inputs from a different Node (use with caution).
+- Added `Out1deriv` to output derivations for dams or river branches.
 
 
 ## References
